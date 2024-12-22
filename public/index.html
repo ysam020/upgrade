@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Paymaster Management Solution Ltd." />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Paymaster Management Solution Ltd." />
+    <meta
+      property="og:description"
+      content="Paymaster Management Solution Ltd. offers an advanced HR management solution."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sameer-yadav.site" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="preconnect"
+      href="https://paymaster-document.s3.ap-south-1.amazonaws.com/kyc/personal.webp"
+    />
+    <link rel="preconnect" href="https://sameer-yadav.online" />
+    <link
+      rel="preload"
+      href="https://paymaster-document.s3.ap-south-1.amazonaws.com/kyc/personal.webp"
+      as="image"
+    />
+    <title>Paymaster Management Solution Ltd.</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./serviceWorker.js")
+            .then((reg) => {})
+            .catch((err) => {});
+        });
+      }
+    </script>
+  </body>
+</html>

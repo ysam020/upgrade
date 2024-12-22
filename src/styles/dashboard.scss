@@ -1,0 +1,93 @@
+.dashboard {
+  padding-bottom: 20px;
+  .dashboard-container {
+    margin: 10px 0;
+    max-height: 500px;
+    overflow: auto;
+    box-shadow: 2px 2px 50px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  #dashboard-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/images/personal.png");
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    height: 185px;
+    padding: 0 25px;
+    background-color: #1abc9c;
+
+    p {
+      color: #fff;
+      font-size: 20px;
+    }
+    h1 {
+      color: #ffb101;
+      font-weight: 800;
+      font-size: 22px;
+    }
+  }
+
+  .attendance-row-1,
+  .attendance-row-2 span {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .attendance-row-1 span {
+    &.total-leaves {
+      color: #6c5efc;
+    }
+
+    &.leaves-taken {
+      color: #19bc9b;
+    }
+
+    &.leaves-absent {
+      color: #33b43a;
+    }
+  }
+
+  .attendance-row-2 span {
+    &.pending-approval {
+      color: #9746ff;
+    }
+
+    &.working-days {
+      color: #80caff;
+    }
+
+    &.loss-of-pay {
+      color: #ff3a29;
+    }
+  }
+
+  .attendance-row p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .notification-container {
+    background-color: #efefef;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    span {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}

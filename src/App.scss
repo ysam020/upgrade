@@ -1,0 +1,427 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.input-hidden {
+  display: none;
+}
+
+.btn {
+  background-color: #111b21 !important;
+  color: #fff !important;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #111b21 !important;
+  color: #fff !important;
+}
+
+.MuiButton-startIcon {
+  margin: 0 !important;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Table */
+.table {
+  background-color: #fff;
+  border: none;
+}
+
+/* DataGrid row min-height */
+.MuiDataGrid-row.MuiDataGrid-row--dynamicHeight {
+  min-height: 50px !important;
+}
+
+/* Disable cell border on cell click */
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-columnHeader:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}
+
+/* Reduce padding on icon button container */
+.MuiDataGrid-iconButtonContainer {
+  padding-right: 8px !important;
+}
+
+.Mui-TableBodyCell-DetailPanel {
+  background-color: #f9fafb !important;
+}
+
+.MuiTableCell-root {
+  .MuiInputBase-root {
+    font-size: 0.8rem !important;
+  }
+}
+
+.Mui-TableHeadCell-Content-Wrapper,
+.MuiTableCell-root {
+  white-space: normal !important;
+}
+
+.MuiListItemText-secondary {
+  text-align: right !important;
+}
+
+.form {
+  h5 {
+    margin-top: 20px;
+  }
+}
+
+.p-icon-field,
+.p-dropdown {
+  width: 100% !important;
+}
+.p-input-icon {
+  top: 30% !important;
+  margin: 0 !important;
+}
+
+.p-password,
+.p-calendar {
+  width: 100% !important;
+}
+.p-inputtext,
+.p-password-input {
+  height: 45px !important;
+  width: 100% !important;
+  padding: 10px !important;
+  margin: 5px 0 !important;
+}
+
+.p-error {
+  color: #f15c6d !important;
+}
+
+a .MuiTypography-body2 {
+  color: #0a5fae !important;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.key {
+  border: 1px solid #0a5faf;
+  color: #0a5faf;
+  background-color: #f9fafb;
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px rgb(10, 95, 175, 0.3);
+}
+
+.MuiSlider-root {
+  width: 400px !important;
+  height: 2px !important;
+  margin-left: 30px !important;
+  color: #0b61ae !important;
+}
+
+.MuiTableRow-root.inactive-job-opening {
+  background-color: #ffc5c5 !important;
+}
+
+.MuiTableRow-root.inactive-job-opening:hover {
+  background-color: #ffc5c5 !important;
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+}
+
+ul {
+  .Mui-disabled {
+    display: none !important;
+  }
+}
+
+// Calendar
+.calendar-container {
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  display: block !important;
+}
+
+.calendar-container header {
+  align-items: center;
+  padding: 25px;
+  justify-content: space-between;
+  display: flex;
+}
+
+header .calendar-navigation span {
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  user-select: none;
+  color: #aeabab;
+  font-size: 1.9rem;
+}
+
+.calendar-navigation span:last-child {
+  margin-right: -10px;
+}
+
+header .calendar-navigation span:hover {
+  background: #f2f2f2;
+}
+
+header .calendar-current-date {
+  font-weight: 500;
+  font-size: 1.45rem;
+}
+
+.calendar-body {
+  padding: 20px 0;
+}
+
+.calendar-body ul {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.calendar-body .calendar-dates {
+  margin-bottom: 20px;
+}
+
+.calendar-body li {
+  width: calc(100% / 7);
+  font-size: 16px;
+  color: #000;
+}
+
+.calendar-body li.present,
+.calendar-body li.leave,
+.calendar-body li.half,
+.calendar-body li.week {
+  color: #fff;
+}
+
+.calendar-body .calendar-weekdays li {
+  cursor: default;
+  font-weight: 500;
+}
+
+.calendar-body .calendar-dates li {
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.calendar-dates li.inactive {
+  color: #aaa;
+}
+
+.calendar-dates span.inactive {
+  color: #aaa;
+}
+
+.calendar-dates li.active {
+  color: #fff;
+}
+
+.calendar-dates li.active.week {
+  color: #fff;
+}
+
+.calendar-dates li::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar-dates li.active::before {
+  background: #eee;
+}
+
+.calendar-dates li.present::before {
+  background: #19bc9b;
+}
+
+.calendar-dates li.half::before {
+  background: #ffb002;
+}
+
+.calendar-dates li.week::before {
+  background: #6c5dfc;
+}
+
+.calendar-dates li.leave::before {
+  background: #f15c6d;
+}
+
+.event-item {
+  background-color: #6c5dfc;
+  color: #fff;
+  padding: 0 3px;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.upcoming-events {
+  box-shadow: 2px 2px 50px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.upcoming-event {
+  background-color: #efefef;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 10px;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.MuiPopover-paper {
+  padding: 10px !important;
+}
+
+// Event Strip
+.event-strip {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 100px);
+}
+
+.event-strip {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f9fafb;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.event-messages {
+  display: flex;
+  white-space: nowrap;
+  animation: moveText 10s linear infinite;
+}
+
+.event-message {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+// Chatbot
+.chatbot-toggler {
+  height: 50px !important;
+  width: 50px !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 999999 !important;
+}
+
+.chatbot {
+  bottom: 55px !important;
+  right: 55px !important;
+  z-index: 999999 !important;
+}
+
+.chatbot header {
+  text-align: left !important;
+  padding: 15px !important;
+}
+
+.chatbot header h2 {
+  margin-bottom: 0 !important;
+}
+
+.chatbox {
+  padding: 20px 10px !important;
+  background: url("./assets//images/chat-bg.png") !important;
+  background-size: cover !important;
+  background-color: #efefef !important;
+  box-shadow: 2px 2px 50px 10px rgba(0, 0, 0, 0.05) !important;
+  margin-bottom: 0 !important;
+  height: 450px !important;
+}
+
+.chat p {
+  padding: 10px !important;
+}
+
+.chat.outgoing p {
+  background-color: #0b61ae !important;
+}
+
+.chat.incoming p {
+  background-color: #fff !important;
+}
+
+.chat-input {
+  padding: 0 !important;
+  background-color: #efefef !important;
+  textarea {
+    padding: 10px !important;
+    background-color: #efefef !important;
+  }
+}
+
+// Alert
+.MuiAlert-root {
+  position: absolute;
+  z-index: 99999 !important;
+  top: 15px !important;
+  right: 80px !important;
+  bottom: auto !important;
+  width: 400px;
+}

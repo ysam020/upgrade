@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+
+.post-it {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 10px;
+  background: #fff;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 0 0 0 30px/45px;
+  box-shadow: inset 0 -40px 40px rgba(80, 79, 79, 0.2),
+    inset 0 25px 10px rgba(174, 172, 172, 0.2),
+    0 5px 6px 5px rgba(73, 66, 66, 0.2);
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  line-height: 1.7em;
+  font-size: 19px;
+  outline: none;
+  color: #130d6b;
+  font-size: 24px;
+}

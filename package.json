@@ -1,0 +1,65 @@
+{
+  "name": "paymaster-crm",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.1",
+    "@mui/material": "^5.16.5",
+    "@mui/x-date-pickers": "^7.22.1",
+    "apexcharts": "^3.54.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "chatbot-widget-ui": "^2.1.0",
+    "dayjs": "^1.11.13",
+    "firebase": "^11.0.1",
+    "formik": "^2.4.6",
+    "fuse.js": "^7.0.0",
+    "lottie-react": "^2.4.0",
+    "material-react-table": "^2.13.0",
+    "pdfjs-dist": "^4.9.155",
+    "primereact": "^10.8.4",
+    "react": "19.0.0",
+    "react-apexcharts": "^1.4.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "19.0.0",
+    "react-organizational-chart": "^2.2.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "sass": "^1.77.4",
+    "socket.io-client": "^4.8.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "ajv": "^8.16.0",
+    "babel-plugin-react-compiler": "^19.0.0-beta-201e55d-20241215",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-201e55d-20241215"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "serve": "serve -s build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
